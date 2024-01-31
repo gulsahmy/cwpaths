@@ -1,0 +1,118 @@
+.clearfix:hover{
+    border: 10px inset purple;
+    font-size: large;
+}
+
+
+button{    
+    margin-left: 1000px;
+    border: none;
+    background-color: hotpink;
+    font-size: medium;
+    /* font-style: italic; */
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+article #par h3{
+    text-align: left;
+}
+#par{
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header{
+    font-size: 25px;
+}
+.container{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    text-align: center;
+
+}
+.container:hover{
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.container *{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+header{
+    /* background-color: teal; */
+    margin-top: 10px;
+}
+
+main{
+    /* background-color: skyblue; */
+    padding: 25px;
+    /* height: 350px; */
+    /* overflow: auto; */
+
+}
+
+
+
+aside{
+    background-color: darkorange;
+    height: 300px;
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+}
+
+article{
+    background-color: rgb(215, 100, 215);
+    height: 260px;
+    width: 70%;
+    float: left;
+    
+}
+
+footer{
+
+    background-color: coral;
+    /* clear: left; */
+}
+/* 
+.clear{
+    clear: both;
+    border: none;
+} */
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+aside img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+
+main article p{
+    /* text-align: right; */
+}
+
+body{
+    background-color: hotpink;
+}
+
+
